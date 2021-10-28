@@ -13,6 +13,7 @@ class StringLengthComp implements Comparator<String> {
     }
 public static class QueueRunner {
     public static void main(String[] args) {
+
         PriorityQueue<String> pq = new PriorityQueue<>(new StringLengthComp());
         pq.addAll(List.of("Zebrasss","Lion","Monkey"));
         //System.out.println(Arrays.toString(pq.toArray()));
