@@ -1,6 +1,8 @@
 package com.collections.comparable;
 
-public class Student implements Comparable<Student>{
+import java.util.Comparator;
+
+public class Student implements Comparable<Student> {
     private int id ;
     private String name ;
 
