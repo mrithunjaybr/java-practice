@@ -10,7 +10,8 @@ public class StudentRunner {
                                                         ,new Student(3,"Velu")));
         System.out.println(objArrList);
 
-        Collections.sort(objArrList);
+        Collections.sort(objArrList); // this would not work without implementing comparable interface
+        // and defining toCompare method.
         System.out.println(objArrList);
 
     }
