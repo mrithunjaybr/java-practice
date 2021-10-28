@@ -6,7 +6,10 @@ class StringLengthComp implements Comparator<String> {
 
     @Override
     public int compare(String o1, String o2) {
+        // sort priority queue based on string length ascending
         return Integer.compare(o1.length(),o2.length());
+        // sort priority queue based on string length descending
+        // return Integer.compare(o2.length(),o1.length());
     }
 public static class QueueRunner {
     public static void main(String[] args) {

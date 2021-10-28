@@ -11,15 +11,7 @@ class DescendingOrderStudent implements Comparator<Student>{
 
 
         //Below one is for descending order
-        if (o1.getId() < o2.getId()){
-            return 1;
-        }
-        else if(o1.getId()>o2.getId()){
-            return -1;
-        }
-        else{
-            return 0;
-        }
+        return Integer.compare(o2.getId(),o1.getId());
     }
 }
 public class StudentRunner {
